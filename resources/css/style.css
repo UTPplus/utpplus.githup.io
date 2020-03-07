@@ -11,13 +11,24 @@ html {
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
+
+.clearfix {zoom: 1}
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+
 .row{
     max-width: 1140px;
     margin: 0 auto;
 }
 
 section{
-    padding: 80px 0;
+    padding: 50px 0;
     
 }
 
@@ -25,6 +36,9 @@ header{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/hero-min.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
     height: 100vh;
     
 }
@@ -67,6 +81,7 @@ h2{
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
+    
      
 }
 h2:after{
@@ -209,6 +224,69 @@ p{
 .meal-photo img:hover{
     opacity: 1;
     transform: scale(1.03);
+}
+
+
+.steps-box{
+    margin-top: 30px;
+
+
+}
+
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+
+}
+
+.steps-box:last-child{
+    
+    padding-left: 3%;
+    margin-top: 70px;
+
+}
+
+.app-screen{
+    
+    width: 40%;
+    height: auto;
+}
+
+.works-step{
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type{
+    margin-bottom: 0;
+}
+
+.works-step div {
+    float: left;
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+    margin-right: 25px;
+    
+}
+
+.btn-app img{
+   
+    height: 200px;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 20px;
+    
+}
+.section-steps{
+    padding-top: 4px;
 }
 
 
