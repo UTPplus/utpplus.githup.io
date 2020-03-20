@@ -1,0 +1,73 @@
+.rows{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+
+
+.card{
+    
+    width: 25%;
+    height: auto;
+    margin: 20px 20px;
+}
+h2{
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 25px auto;
+    letter-spacing: 4px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.main-header{
+    z-index: 2;
+    position: absolute;
+    
+    width: 1140px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-size: 5em;
+    text-transform: uppercase;
+    color: ivory;
+}
+.logo{
+    width: 5em;
+    background-color: lightgreen;
+
+}
+
+
+.navbar-brand{
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em;
+
+
+}
+.section{
+    margin: 50px auto;
+    
+}
+.sec-text{
+    border: 1px solid white;
+    padding: 40px 20px;
+    margin: 30px auto;
+    
+}
+.sec-text p{
+    width: 70%;
+    height: auto;
+    font-size: 20px;
+    letter-spacing: normal;
+    
+}
+.header-bt button{
+    font-size: 1.5em;
+}
