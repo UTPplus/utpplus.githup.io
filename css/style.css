@@ -3,17 +3,24 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1140px;
+    width: 80%;
     margin: 0 auto;
     
 }
 
 
 .card{
-    
+    min-width: 350px;
     width: 25%;
     height: auto;
-    margin: 20px 20px;
+    margin: 1% 1%;
+}
+.sec2-box{
+    min-width: 350px;
+    height: auto;
+    width: 22%;
+    margin: 15px 15px;
+
 }
 h2{
     font-size: 3em;
@@ -28,7 +35,7 @@ h2{
     z-index: 2;
     position: absolute;
     
-    width: 1140px;
+    width: 90%px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -64,10 +71,110 @@ h1{
 .sec-text p{
     width: 70%;
     height: auto;
-    font-size: 20px;
+    font-size: 1.4em;
     letter-spacing: normal;
     
 }
 .header-bt button{
     font-size: 1.5em;
 }
+
+
+.conter{
+    
+    width: 80%;
+    margin: 0 auto;
+    background-color: tomato;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.box{
+    width: 300px;
+    margin: 20px 20px;
+
+    height: 300px;
+    background-color: teal;
+}
+
+@media (max-width: 575px) { 
+    h1{
+        font-size: 1.5em;
+    }
+    h2{
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+    .sec-text p{
+        width: 90%;
+        height: auto;
+        font-size: .8em;
+        letter-spacing: normal;
+        
+    }
+    .header-bt button{
+        font-size: .8em;
+        padding: 8px 8px;
+    }
+    
+ }
+
+
+@media (min-width: 575px) and (max-width: 767px) {
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.3em;
+        font-weight: 600;
+        
+    } 
+    .sec-text p{
+        width: 90%;
+        height: auto;
+        font-size: .8em;
+        letter-spacing: normal;
+        
+    }
+    .header-bt button{
+        font-size: 1em;
+    }
+
+    
+ }
+
+
+@media (min-width: 765px) and (max-width: 991px) { 
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        font-size: 1.8em;
+        font-weight: 600;
+        
+    } 
+    .sec-text p{
+        width: 90%;
+        height: auto;
+        font-size: 1em;
+        letter-spacing: normal;
+        
+    }
+    
+    
+ }
+
+
+@media (min-width: 991px) and (max-width: 1199px) { 
+    h1{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 2em;
+        font-weight: 600;
+        
+    }
+    
+ }
