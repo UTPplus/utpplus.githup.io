@@ -178,3 +178,7 @@ h1{
     }
     
  }
+ a img{
+     width: 2em;
+     height: auto;
+ }
